@@ -16,28 +16,12 @@
             text-align: center;
             margin-bottom: 20px;
         }
-        nav {
-            text-align: center;
-            margin-bottom: 40px;
-        }
-        nav a {
-            margin: 0 15px;
-            text-decoration: none;
-            color: #333;
-            font-weight: bold;
-        }
-        .article {
-            display: flex;
-            margin-bottom: 20px;
+        .hobby {
+            margin: 20px 0;
             padding: 15px;
             background: #fff;
             border-radius: 5px;
             box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-        }
-        .article img {
-            max-width: 150px;
-            margin-right: 20px;
-            border-radius: 5px;
         }
         footer {
             text-align: center;
@@ -49,37 +33,29 @@
 <body>
     <header>
         <h1>Tiffany Dong</h1>
+        <h2>My Hobbies</h2>
     </header>
-    <nav>
-        <a href="#projects">Projects</a>
-        <a href="#art">Art</a>
-        <a href="#music">Music</a>
-        <a href="#photos">Photos</a>
-        <a href="#photography">Photography</a>
-        <a href="#film">Film</a>
-    </nav>
     <main>
-        <div class="article">
-            <img src="link-to-your-image1.jpg" alt="Article 1">
-            <div>
-                <h2>Article Title 1</h2>
-                <p>Short description of your article. This is where you summarize your thoughts or findings.</p>
-                <a href="link-to-full-article1.html">Read more</a>
-            </div>
+        <div class="hobby">
+            <h3>Photography</h3>
+            <p>A brief description of your photography hobby.</p>
         </div>
-        <div class="article">
-            <img src="link-to-your-image2.jpg" alt="Article 2">
-            <div>
-                <h2>Article Title 2</h2>
-                <p>Short description of your article. This is where you summarize your thoughts or findings.</p>
-                <a href="link-to-full-article2.html">Read more</a>
-            </div>
+        <div class="hobby">
+            <h3>Painting</h3>
+            <p>A brief description of your painting hobby.</p>
         </div>
-        <!-- Add more articles as needed -->
+        <div class="hobby">
+            <h3>Music</h3>
+            <p>A brief description of your music hobby.</p>
+        </div>
+        <div class="hobby">
+            <h3>Traveling</h3>
+            <p>A brief description of your traveling experiences.</p>
+        </div>
+        <!-- Add more hobbies as needed -->
     </main>
     <footer>
         <p>&copy; 2024 Tiffany Dong</p>
     </footer>
 </body>
 </html>
-
